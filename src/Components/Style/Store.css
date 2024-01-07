@@ -62,9 +62,10 @@
     margin-left: 20px;
     border: none;
     color: white;
-    background-color: green;
+    background-color: rgb(8, 112, 8);
     width: 100px;
     height: 35px;
+    transition: 0.8s;
     font-size: 14px;
 }
 .contimgbutton:hover{

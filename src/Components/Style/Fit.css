@@ -1,0 +1,121 @@
+
+body{
+   background-color: #f5f5f5;
+    overflow-x: hidden;
+  }
+  .top{
+    background: #4b6cb7;  
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  
+background: linear-gradient(to right, #182848, #182848); 
+
+    margin-top: 0px;
+    margin-left: -120px;
+   width: 1536px;
+    height: 90px;
+    
+}
+/* .container{
+    overflow: hidden;
+} */
+.heading{
+    position: absolute;
+    color: white;
+    margin-left: 50PX;
+    margin-top: 20PX;
+    font-size: 20PX;
+    font-family: "Proxima Nova","Proxima Nova Fallback",sans-serif;;
+}
+.heading h2{
+    font-family: Georgia, serif;;
+}
+.firstnav{
+    position: absolute;
+   
+   /* background-color: red; */
+    margin-left: 900px;
+   
+    width: 700px;
+    margin-top: 30px;
+
+}
+.firstnav ul{
+    list-style: none;
+    display: flex;
+   margin-left: 50px;
+   margin-top: 0px;
+   
+}
+.firstnav li{
+    
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+    height: 45px;
+  
+    
+}
+.firstnav li a{
+    text-decoration: none;
+    color: white;
+}
+.navsub{
+    position: absolute;
+    margin-top: 29px;
+    background-color: rgb(136, 133, 133);
+    height: 400px;
+    width: 250px;
+   margin-left: -100px;
+   border-radius:3px;
+  display: none;
+  
+}
+.navsub ul{
+    list-style: none;
+    display: inline;
+  
+   
+     
+}
+.navsub li{
+   
+    padding-top: 40px;
+    margin-left: -80px;
+    font-size: 20px;
+    color: white;
+    
+}
+.button1{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.button1:hover{
+   background-color:  lightgray;
+}
+.Storehover{
+    transition: 0.5s;
+}
+/* .Storehover:hover .navsub{
+ display: block;
+} */
+.search{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -425px;
+    width: 550px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+
+}
+.searchbutton{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 30px;
+    border: none;
+    height: 35px;
+    width: 80px;
+    background-color: rgb(239, 223, 223);
+    border-radius: 2px;
+}

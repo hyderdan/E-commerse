@@ -1,0 +1,46 @@
+.top2{
+    position: absolute;
+   
+    /* background-color: red; */
+    width: 1536px;
+    height: 600px;
+}
+.top2img{
+    width: 1536px;
+    height: 600px;
+    opacity: 0.9;
+    mix-blend-mode: darken;
+}
+.top2h1{
+    mix-blend-mode: lighten;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 300px;
+    color: white;
+}
+.subtop2h1{
+    font-size: 80px;
+
+}
+.subtopbutton{
+   position: absolute;
+    margin-top: 380px;
+    margin-left: -850px;
+    border: none;
+    border-radius: 4px;
+    width: 180px;
+    height: 60px;
+    color: white;
+    background: #3E5151;  
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151); 
+    background: linear-gradient(to right, #DECBA4, #3E5151); 
+    transition: 1s;
+    
+}
+.subtopbutton:hover{
+  
+    background: #bdc3c7; 
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+    
+}

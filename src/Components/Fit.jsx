@@ -29,7 +29,7 @@ function  button1(){
                                         <li><button onClick={button1} className="button1"> Open Store</button></li>
                                         <li>Shop by brands</li>
                                         <li>Shop by Category</li>
-                                        <li>Shop by goals</li>
+                                        <li>Shop by goalsss</li>
                                         <li>Clearence sale</li>
                                         <li>Latest products</li>
                                     </ul>

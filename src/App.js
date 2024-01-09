@@ -9,6 +9,7 @@ import Store from './Components/Store';
 import { img } from './Components/Data';
 import Home from './Components/Home';
 import { storeimage } from './Components/Data';
+import Productdetails from './Components/Productdetails';
 
 function App() {
   const[storeimg2,setstoreimg2]=useState(storeimage)
@@ -23,8 +24,9 @@ function App() {
       <mydata.Provider value={values}>
       <Routes>
         <Route path='/Fit' element={<Fit/>}/>
-        <Route path='/Store' element={<Store/>}/>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Store/>}/>
+        <Route path='/workout' element={<Home/>}/>
+        <Route path='/detail' element={<Productdetails/>}/>
       </Routes>
       </mydata.Provider>
       </BrowserRouter>

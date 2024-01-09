@@ -22,9 +22,9 @@ function  button1(){
                     </div>
                     <div className="firstnav">
                         <ul>
-                            <li className="Storehover1"><Link to={'/'} >Home</Link></li>
-                            <li className="Storehover"><Link to={'store'} >Store</Link>
-                                <div className="navsub">
+                            <li className="Storehover1"><Link to={'/workout'} >Home</Link></li>
+                            <li className="Storehover"><Link to={'/'} >Store</Link>
+                                {/* <div className="navsub">
                                     <ul>
                                         <li><button onClick={button1} className="button1"> Open Store</button></li>
                                         <li>Shop by brands</li>
@@ -33,7 +33,7 @@ function  button1(){
                                         <li>Clearence sale</li>
                                         <li>Latest products</li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </li>
                         <li className="Storehover2"><Link to={'/'} >Workouts</Link></li>
                         <li className="Storehover3"><Link to={'/'} >Diet plan</Link></li>

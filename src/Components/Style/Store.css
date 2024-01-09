@@ -1,10 +1,12 @@
-
+body{
+    overflow-x: hidden;
+}
 .container2{
     background-color: red;
-    height: 350px;
-    width: 1400px;
-    margin-left: 60px;
-    margin-top: 30px;
+    height: auto;
+    width: auto;
+    margin-left: 0px;
+    margin-top: 50px;
 }
 .firstimg{
     width: 100%;
@@ -13,7 +15,7 @@
 
 }
 .container3{
-    height: 750px;
+    height: auto;
     width: 1400px;
     margin-left: 60px;
     background-color: white;

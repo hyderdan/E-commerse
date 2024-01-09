@@ -12,10 +12,10 @@ import { storeimage } from './Components/Data';
 import Productdetails from './Components/Productdetails';
 
 function App() {
-  const[storeimg2,setstoreimg2]=useState(storeimage)
+  const[data,setdata]=useState(storeimage)
   const [storeimg,setstoreimg]=useState(img)
   const values={
-    storeimg,setstoreimg,storeimg2,setstoreimg2
+    storeimg,setstoreimg,data,setdata
   }
 
   return (
@@ -26,7 +26,7 @@ function App() {
         <Route path='/Fit' element={<Fit/>}/>
         <Route path='/' element={<Store/>}/>
         <Route path='/workout' element={<Home/>}/>
-        <Route path='/detail' element={<Productdetails/>}/>
+        <Route path='/detail/:count' element={<Productdetails/>}/>
       </Routes>
       </mydata.Provider>
       </BrowserRouter>

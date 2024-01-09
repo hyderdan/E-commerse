@@ -7,7 +7,7 @@ import mydata from "../context";
 
 
 function Store(){
-    const {storeimg,storeimg2}=useContext(mydata);
+    const {storeimg,data}=useContext(mydata);
     const image1=storeimg.filter((data)=>
     data.description==="first div"
     );
@@ -27,13 +27,13 @@ function Store(){
                 <h4 className="subh4">THIS WEEK'S TOP DEALS</h4> 
                 </div>
                 <div className="cont3sub2">
-                    {storeimg2.map((data)=>(
-                        <div className="cont3sub2mini">
-                      <Link><img className="cont3img" src={data.image}  alt="img" /></Link>
+                    {data.map((data)=>(
+                    <Link to={`/detail/${data.count}`} className="Link">    <div className="cont3sub2mini">
+                      <img className="cont3img" src={data.image}  alt="img" />
                         <p className="contimgp">{data.name}</p>
                         <p className="contimgp2">{data.description}</p>
                         <button className="contimgbutton">View products</button>
-                </div>                         
+                </div>    </Link>                     
                     ))}
                 </div>
                 </div>

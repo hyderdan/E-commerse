@@ -1,0 +1,9 @@
+.productfirstdiv{
+    background-color: rgb(223, 229, 238) ;
+    height: 30px;
+}
+.productfirstdiv h6{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 5px;
+}

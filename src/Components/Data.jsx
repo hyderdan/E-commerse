@@ -12,7 +12,19 @@ export const storeimage=[
     {
         "image":"https://cdn.muscleandstrength.com/store/media/catalog/product/cache/all/image/700x700/602f0fa2c1f0d1ba5e241f914e856ff9/1/0/100-whey-chocolate-5lb_1.jpg",
         "name":"Nutrex 100% whey",
-        "description":"5lbs"
+        "description":"5lbs",
+        "productdetails":[
+            "A Nutrex Product",
+            "100% Muscle Building Fuel, Exceptional Taste",
+           "24g protein",
+            "11.3g EAAs",
+            "5.3g BCAAs",
+            "150 calories",
+            
+        ],
+        "count":1,
+        "price":39980,
+
     },
     {
         "image":"https://cdn.muscleandstrength.com/store/media/catalog/product/cache/all/image/700x700/602f0fa2c1f0d1ba5e241f914e856ff9/c/4/c4_original_br30.jpg",

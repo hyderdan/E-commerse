@@ -10,7 +10,7 @@ export default function Productdetails() {
     const {data}=useContext(mydata);
     const{count}=useParams();
     const detaildata=data.filter((p)=>
-    p.count===count
+    p.count===parseInt(count)
     );
     console.log(detaildata)
     console.log(data)

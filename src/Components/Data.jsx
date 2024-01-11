@@ -16,10 +16,10 @@ export const storeimage=[
         "productdetails":[
             "A Nutrex Product",
             "100% Muscle Building Fuel, Exceptional Taste",
-           "24g protein",
-            "11.3g EAAs",
-            "5.3g BCAAs",
-            "150 calories",
+           "Whey Isolate & peptides primary source",
+            "Amplifies recovery, performance & strength*",
+            "30g Protein per serving",
+            "Delicious flavors & easy mixability!",
             
         ],
         "count":1,

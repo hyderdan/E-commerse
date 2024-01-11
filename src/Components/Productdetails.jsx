@@ -21,8 +21,16 @@ export default function Productdetails() {
                 <h6><IoIosAirplane />WE SHIP TO INDIA </h6>
             </div>
             <div className="productseconddiv">
+                <div className="bluediv"></div>
             {detaildata.map((D)=>(
+                <div>
                 <img src={D.image} alt="img" />
+                <h1>{D.name}</h1>
+                <p>{D.productdetails[0]} <br />{D.productdetails[1]}
+                <br />{D.productdetails[2]}<br />{D.productdetails[3]}
+                <br />{D.productdetails[4]}<br />{D.productdetails[5]}
+                </p>
+                </div>
             ))}
             </div>
         </div>
